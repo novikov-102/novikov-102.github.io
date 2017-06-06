@@ -50,8 +50,6 @@ a:focus{
 	border-color: #fcac45;
 	border-width: 4px;
 	width: 60px;
-	float: left;
-	clear: both;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -198,6 +196,9 @@ ul.about-list li span{
 	background-attachment: fixed;
 	padding: 80px 0;
 }
+.section-title{
+	text-align: center;
+}
 .section-title.center{
 	padding: 30px 0;
 }
@@ -212,6 +213,7 @@ ul.about-list li span{
 	text-align: center;
 	margin: 0 auto;
 	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .section-title.center hr {

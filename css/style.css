@@ -1,0 +1,240 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+::-moz-selection {
+	background: #f2c2c9;
+	color: #a4003a;
+	text-shadow: none;
+}
+
+::selection {
+	background: #16a085;
+	color: #a4003a;
+	text-shadow: none;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.centered {
+	text-align: center
+}
+
+.mt {
+	margin-top: 100px;
+}
+
+.mb {
+	margin-bottom: 100px;
+}
+
+body {
+	background: url(../img/bg.jpg);
+	-webkit-background-size: auto;
+	background-size: auto;
+	padding: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #DADADA;
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+	color: #DADADA;
+	text-transform: uppercase;
+	text-shadow: 0px 25px 25px #000;
+}
+
+#navwrap {
+	background-color: #2f2f2f;
+	-webkit-box-shadow: 0 0 10px 10px #000;
+	box-shadow: 0 15px 40px 0px #000;
+	position: relative;
+
+}
+
+.navbar {
+	margin: 0;
+}
+
+.navbar-brand {
+	font-weight: 700;
+}
+
+.navbar-default .navbar-brand {
+	color: #DADADA;
+}
+
+.navbar-default .navbar-brand {
+	color: #DADADA;
+	text-shadow: 0px 5px 10px #000;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #ffffff;
+	text-shadow: 0px 5px 2px #000;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #DADADA;
+	text-shadow: 0px 5px 10px #000;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #ffffff;
+	text-shadow: 0px 5px 2px #000;
+}
+
+.navbar-collapse {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border: none;
+}
+
+.navbar-default .navbar-toggle {
+	border: none;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
+	background-color: #fff;
+	box-shadow: 1px 3px 2px 0px #000;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #DADADA;
+	box-shadow: 1px 4px 4px 0px #000;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+#headerwrap {
+	margin-top: -70px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+	width: 100%;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#headerwrap h1 {
+	color:#DADADA;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+#headerwrap h4 {
+	text-shadow: 0px 10px 6px #000;
+}
+
+#works h1 {
+	text-shadow: 0px 15px 15px #000;
+}
+
+@media (max-width: 768px){
+	#headerwrap h1 {
+		font-size: 60px;
+		text-shadow: 0px 15px 20px #000;
+	}
+	#headerwrap h4 {
+		text-shadow: 0px 10px 6px #000;
+	}
+}
+
+@media (max-width: 500px){
+	#headerwrap h1 {
+		font-size: 30px;
+		text-shadow: 0px 10px 10px #000;
+	}
+	#headerwrap h4 {
+		font-size: 16px;
+		text-shadow: 0px 10px 6px #000;
+	}
+	#works h1 {
+		font-size: 24px;
+		text-shadow: 0px 10px 10px #000;
+	}
+}
+
+#headerwrap h4 {
+	font-weight: 400;
+	color: #DADADA
+}
+
+#footerwrap {
+	padding-top: 70px;
+	padding-bottom: 50px;
+	background-color: #2f2f2f;
+	-webkit-box-shadow: 0 0 10px 10px #000;
+	box-shadow: 0 15px 40px 0px #000;
+}
+
+#footerwrap p {
+	color: #DADADA;
+	margin-left: 10px;
+}
+
+#works p {
+	color: #fff;
+}
+
+.gallery {
+	display: inline-block;
+	padding: 0;
+	margin-top: 50px;
+	-webkit-box-shadow: 0 15px 40px 0px #000;
+	box-shadow: 0 15px 40px 0px #000;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+.gallery:hover {
+	-webkit-box-shadow: 0 15px 40px -15px #000;
+	box-shadow: 0 15px 40px -15px #000;
+}

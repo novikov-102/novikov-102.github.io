@@ -1,3 +1,12 @@
+@media (max-width: 992px) {
+	.about-text .section-title {
+		text-align: center;
+	}
+	.about-text .intro {
+		text-align: center;
+	}
+}
+
 @media (max-width: 768px){
 	.content {
 		padding: 40% 0 0;
@@ -34,3 +43,4 @@
 		padding: 22% 10%;
 	}
 }
+
