@@ -23,7 +23,6 @@ jQuery(document).ready(function($) {
 		if (nav.hasClass('mobile')) nav.fadeOut('fast');
 	});
 
-	$("#intro").backstretch("images/header-background.jpg");
 	/*----------------------------------------------------*/
 /* Smooth Scrolling
 ------------------------------------------------------ */
