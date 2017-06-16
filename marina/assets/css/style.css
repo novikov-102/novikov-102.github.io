@@ -459,7 +459,7 @@ label {
 	-moz-box-shadow: 0 0 5px rgba(0,0,0,.05);
 }
 /*	Parallax Background	==================================================*/
-#parallax {
+/*#parallax {
 	height:100%;
 	width:100%;
 	top:0;
@@ -472,7 +472,7 @@ label {
 	-o-background-size: cover;
 	background-size: cover;
 	z-index: -100;
-}
+}*/
 /*	Navbar	==================================================*/
 .navbar-inverse .navbar-brand {
 	padding:30px 15px;
@@ -518,6 +518,18 @@ label {
 #hero {
 	padding:0;
 	color:#FFF;
+	height:100%;
+	width:100%;
+	top:0;
+	position:relative;
+	background-image:url('../img/bg.jpg');
+	background-position:center center;
+	background-repeat:no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index: -100;
 }
 #hero .herotext {
 	padding:160px 0px;
