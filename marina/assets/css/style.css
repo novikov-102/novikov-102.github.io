@@ -529,7 +529,6 @@ label {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	z-index: -100;
 }
 #hero .herotext {
 	padding:160px 0px;
@@ -1339,7 +1338,10 @@ img.mfp-img {
 	.parallax {
 		background-repeat: no-repeat;
 		background-attachment: fixed;
-		background-size: cover;
+		-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 		overflow: hidden;
 		z-index: 1;
 		color:#fff;
