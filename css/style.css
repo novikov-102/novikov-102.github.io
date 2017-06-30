@@ -201,6 +201,10 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
+#works h2 {
+	font-size: 36px;
+}
+
 #headerwrap h4 {
 	font-weight: 400;
 	color: #DADADA
