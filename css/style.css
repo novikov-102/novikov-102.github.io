@@ -42,8 +42,9 @@ hr {
 
 body {
 	background: url(../img/bg.jpg);
-	-webkit-background-size: auto;
-	background-size: auto;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
 	padding: 20px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
