@@ -2,14 +2,14 @@
 
 
 ::-moz-selection {
-	background: #f2c2c9;
-	color: #a4003a;
+	background: #666666;
+	color: #cccc55;
 	text-shadow: none;
 }
 
 ::selection {
-	background: #16a085;
-	color: #a4003a;
+	background: #666666;
+	color: #cccc55;
 	text-shadow: none;
 }
 
@@ -21,6 +21,12 @@ hr {
 	margin: 1em 0;
 	padding: 0;
 }
+
+#works a,
+#navwrap a {
+	outline: none;
+}
+
 
 .clearfix::after {
 	content: "";
@@ -223,9 +229,8 @@ h1, h2, h3, h4, h5, h6 {
 	margin-left: 10px;
 }
 
-#works p {
-	color: #fff;
-}
+
+
 
 .gallery {
 	display: inline-block;
